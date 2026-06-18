@@ -1,0 +1,17 @@
+REM Title: Coding Environment Setup (Windows 11)
+REM Author: Sean Bowman
+REM Version: 2.0
+REM Target: Windows 11
+REM Description: Opens the Run dialog and bootstraps the dev environment by
+REM   downloading and executing scripts/bootstrap.ps1 from the public repo.
+REM   Replaces the legacy v1.0 Dropbox/VBScript payload.
+
+REM Give the host a moment, then open the Run dialog
+DELAY 1000
+GUI r
+DELAY 750
+
+REM Launch PowerShell and pull-and-run the bootstrap script
+STRING powershell -NoProfile -ExecutionPolicy Bypass -Command "irm https://raw.githubusercontent.com/sean-bowman/environmentSetup/main/scripts/bootstrap.ps1 | iex"
+DELAY 250
+ENTER

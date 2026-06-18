@@ -1,0 +1,9 @@
+# pip-installed Python packages for the development environment.
+# One package per line; blank lines and lines starting with '#' are ignored.
+#
+# NOTE: the heavy scientific packages (numpy, scipy, pandas, matplotlib) are
+# installed via conda by bootstrap.ps1, not from this file.
+# The thermodynamic backend (CoolProp vs ctREFPROP) is also handled by
+# bootstrap.ps1 based on whether REFPROP is already installed.
+
+CEA_Wrap

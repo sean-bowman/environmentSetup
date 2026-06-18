@@ -1,0 +1,21 @@
+# VS Code extensions to install (one marketplace id per line).
+# Blank lines and lines starting with '#' are ignored.
+# Edit this list to match your preferred setup.
+
+# Python
+ms-python.python
+ms-python.vscode-pylance
+ms-toolsai.jupyter
+
+# .NET / C#
+ms-dotnettools.csharp
+
+# Rust
+rust-lang.rust-analyzer
+
+# Web / JS
+esbenp.prettier-vscode
+
+# Tooling
+ms-vscode.powershell
+anthropic.claude-code

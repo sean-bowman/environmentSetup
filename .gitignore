@@ -1,0 +1,34 @@
+# --- Claude / AI tooling ---
+.claude/
+**/.claude/
+CLAUDE.md
+**/CLAUDE.local.md
+
+# --- Secrets ---
+firmware/secrets.py
+secrets.py
+*.env
+.env
+
+# --- Proprietary / large binary assets (never published) ---
+# REFPROP is NIST-licensed and must be user-supplied, not distributed here.
+REFPROP/
+REFPROP.zip
+python_packages/
+python_packages.zip
+environmentSetup.zip
+*.uf2
+
+# --- Downloads / build artifacts ---
+downloads/
+*.tmp
+*.tmp.*
+tmpclaude-*
+
+# --- OS / editor cruft ---
+Thumbs.db
+desktop.ini
+.DS_Store
+.vscode/
+__pycache__/
+*.pyc
