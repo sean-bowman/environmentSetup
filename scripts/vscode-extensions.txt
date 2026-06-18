@@ -1,21 +1,71 @@
 # VS Code extensions to install (one marketplace id per line).
 # Blank lines and lines starting with '#' are ignored.
-# Edit this list to match your preferred setup.
+# Generated from Sean Bowman's active VS Code install; edit to taste.
 
 # Python
 ms-python.python
 ms-python.vscode-pylance
+ms-python.debugpy
+ms-python.vscode-python-envs
+
+# Jupyter / notebooks
 ms-toolsai.jupyter
+ms-toolsai.jupyter-keymap
+ms-toolsai.jupyter-renderers
+ms-toolsai.vscode-jupyter-cell-tags
+ms-toolsai.vscode-jupyter-slideshow
 
 # .NET / C#
+ms-dotnettools.csdevkit
 ms-dotnettools.csharp
+ms-dotnettools.vscode-dotnet-runtime
 
-# Rust
-rust-lang.rust-analyzer
+# C / C++
+ms-vscode.cpp-devtools
+ms-vscode.cpptools
+ms-vscode.cpptools-extension-pack
+ms-vscode.cpptools-themes
 
-# Web / JS
-esbenp.prettier-vscode
+# Go
+golang.go
 
-# Tooling
-ms-vscode.powershell
+# Fortran
+fortran-lang.linter-gfortran
+
+# Assembly
+13xforever.language-x86-64-assembly
+
+# TOML / CSV
+tamasfe.even-better-toml
+mechatroner.rainbow-csv
+
+# Markdown / docs
+davidanson.vscode-markdownlint
+yzhang.markdown-all-in-one
+bierner.markdown-mermaid
+bpruitt-goddard.mermaid-markdown-syntax-highlighting
+ms-vscode.wordcount
+streetsidesoftware.code-spell-checker
+
+# Office / PDF / HTML preview
+cweijan.vscode-office
+tomoki1207.pdf
+george-alisson.html-preview-vscode
+
+# Ducky Script (Pi Pico payloads)
+cvbenur.ducky-script-lang-vscode
+judge2020.duckyscript
+
+# AI assistants
 anthropic.claude-code
+google.geminicodeassist
+
+# Remote / shell
+ms-vscode-remote.remote-wsl
+ms-vscode.powershell
+
+# Themes / icons / fun
+azemoh.one-monokai
+zhuangtongfa.material-theme
+pkief.material-icon-theme
+tonybaloney.vscode-pets
