@@ -2,7 +2,7 @@
 
 A USB-deployable, one-shot provisioner for a Windows 11 engineering development
 environment. A Raspberry Pi Pico, flashed as a USB HID keyboard, types a single
-command that downloads and runs a PowerShell bootstrap script — installing the
+command that downloads and runs a PowerShell bootstrap script: installing the
 full toolchain, a Python scientific stack, and VS Code with extensions, with no
 manual clicking.
 
@@ -43,7 +43,7 @@ Pico (USB HID)  ──types──►  Run dialog
    and "types" [`payloads/environmentSetup.dd`](payloads/environmentSetup.dd).
 2. The payload opens the Run dialog and launches
    [`scripts/bootstrap.ps1`](scripts/bootstrap.ps1) straight from this repo.
-3. `bootstrap.ps1` is idempotent — re-running it skips anything already present.
+3. `bootstrap.ps1` is idempotent: re-running it skips anything already present.
 
 ## Quickstart
 
@@ -73,7 +73,7 @@ environmentSetup/
 ├── payloads/      Ducky Script payload typed by the Pico
 ├── scripts/       winget + PowerShell provisioner and package lists
 ├── docs/          Flashing guide and images
-├── LICENSE        MIT (original work) — firmware is GPLv2 separately
+├── LICENSE        MIT (original work): firmware is GPLv2 separately
 └── .gitignore
 ```
 

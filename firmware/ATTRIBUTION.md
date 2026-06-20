@@ -13,13 +13,13 @@ under its original license.
 
 ## Files from upstream (unmodified)
 
-- `boot.py` — USB mass-storage visibility control via GP15
-- `code.py` — entry point; board detection, payload selection, Pico W web service
-- `duckyinpython.py` — Ducky Script v1.0 interpreter (USB HID keyboard injection)
-- `webapp.py` — Pico W web interface for remote payload management
-- `wsgiserver.py` — minimal WSGI server for the Pico W web interface
-- `RESET.md` — recovery instructions
-- `lib/` — bundled Adafruit support libraries (`adafruit_hid`, `adafruit_wsgi`,
+- `boot.py`: USB mass-storage visibility control via GP15
+- `code.py`: entry point; board detection, payload selection, Pico W web service
+- `duckyinpython.py`: Ducky Script v1.0 interpreter (USB HID keyboard injection)
+- `webapp.py`: Pico W web interface for remote payload management
+- `wsgiserver.py`: minimal WSGI server for the Pico W web interface
+- `RESET.md`: recovery instructions
+- `lib/`: bundled Adafruit support libraries (`adafruit_hid`, `adafruit_wsgi`,
   `asyncio`, `adafruit_debouncer`, `adafruit_ticks`), MIT-licensed by Adafruit
 
 ## Original contributions (Sean Bowman)

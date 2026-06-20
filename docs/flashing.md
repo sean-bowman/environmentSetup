@@ -34,7 +34,7 @@ CIRCUITPY/
 │   ├── asyncio/
 │   ├── adafruit_debouncer.mpy
 │   └── adafruit_ticks.mpy
-├── secrets.py           (Pico W only — see step 3)
+├── secrets.py           (Pico W only: see step 3)
 └── payload.dd           (see step 4)
 ```
 
